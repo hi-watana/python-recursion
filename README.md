@@ -1,4 +1,9 @@
 # ruby-recursion
 
-## How to run
-ruby test_recursive_functions.rb
+## How to test
+
+### fact
+ruby test_fact.rb
+
+### fib
+ruby test_fib.rb
