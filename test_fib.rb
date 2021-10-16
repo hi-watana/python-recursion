@@ -1,5 +1,5 @@
 require 'test/unit'
-require './recursive_functions'
+require './fib'
 
 class TestFib < Test::Unit::TestCase
   def test_fib_n_is_0

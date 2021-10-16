@@ -1,5 +1,5 @@
 require 'test/unit'
-require './recursive_functions'
+require './fact'
 
 class TestFact < Test::Unit::TestCase
   def test_fact_n_is_0
