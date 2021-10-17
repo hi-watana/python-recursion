@@ -3,6 +3,5 @@ def fact(n):
         while True:
             if k <= 0:
                 return a
-            a = k * a
-            k = k - 1
+            k, a = k - 1, k * a
     return _fact(n, 1)
