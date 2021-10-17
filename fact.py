@@ -1,3 +1,6 @@
 def fact(n):
-    # TODO: Implement this
-    return 0
+    def _fact(k, a):
+        if k <= 0:
+            return a
+        return _fact(k - 1, a * k)
+    return _fact(n, 1)
