@@ -1,9 +1,9 @@
-# ruby-recursion
+# python-recursion
 
 ## How to test
 
 ### fact
-ruby test_fact.rb
+python3 test_fact.py
 
 ### fib
-ruby test_fib.rb
+python3 test_fib.py
