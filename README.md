@@ -3,7 +3,7 @@
 ## How to test
 
 ### fact
-python3 tests/test_fact.py
+python3 -m unittest tests.test_fact
 
 ### fib
-python3 tests/test_fib.py
+python3 -m unittest tests.test_fib
